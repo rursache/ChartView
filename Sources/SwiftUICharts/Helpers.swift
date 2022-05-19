@@ -1,5 +1,5 @@
 //
-//  File.swift
+//  Colors.swift
 //
 //
 //  Created by András Samu on 2019. 07. 19..
@@ -242,7 +242,7 @@ public class TestData{
     
 }
 
-extension Color {
+fileprivate extension Color {
     init(hexString: String) {
         let hex = hexString.trimmingCharacters(in: CharacterSet.alphanumerics.inverted)
         var int = UInt64()
